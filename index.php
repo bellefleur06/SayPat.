@@ -15,7 +15,7 @@
   <!-- Navbar -->
   <nav class="nav navbar navbar-expand-lg py-3 sticky-top bg-white navbar-light">
       <div class="container">
-        <a href="#" class="navbar-brand fw-bold">SayOut. <i class="fa fa-message" style="color:#df5478"></i></a>
+        <a href="#" class="navbar-brand fw-bold">SayPat. <i class="fa fa-message" style="color:#df5478"></i></a>
         <button
           class="navbar-toggler"
           type="button"

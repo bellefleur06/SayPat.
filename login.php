@@ -22,7 +22,7 @@ if (isset($_SESSION['username'])) {
   <!-- Navbar -->
   <nav class="nav navbar navbar-expand-lg py-3 sticky-top bg-white navbar-light">
       <div class="container">
-        <a href="#" class="navbar-brand fw-bold">SayOut. <i class="fa fa-message" style="color:#df5478"></i></a>
+        <a href="#" class="navbar-brand fw-bold">SayPat. <i class="fa fa-message" style="color:#df5478"></i></a>
 
         <button
           class="navbar-toggler"
@@ -49,8 +49,8 @@ if (isset($_SESSION['username'])) {
         <div class="col-md-6 mx-auto text-center">
           <div class="card">
               <div class="card-body pt-4">
-                <img class="iconbox" src="includes/images/logo.jpg" class="img-fluid">
-                <form action="includes/action.php" method="post" class="row justify-content-center mt-3">
+                <img class="iconbox" src="includes/images/logo.png" class="img-fluid">
+                <form action="includes/action.php" method="post" class="row justify-content-center">
                   <div class="col-md-10 my-2">
                   <?php if (isset($_SESSION['login-failed'])) : ?>
                   <h5 id="alert" class="alert alert-danger fw-bold"><?php echo $_SESSION['login-failed']; ?></h5>

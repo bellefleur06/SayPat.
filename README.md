@@ -1,2 +1,2 @@
-# SayPat
-SayOut Bootleg Website
+# SayPat.
+SayOut.Me Bootleg Website

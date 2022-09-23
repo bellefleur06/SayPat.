@@ -50,7 +50,7 @@ if (isset($_SESSION['username'])) {
           <div class="card">
               <div class="card-body pt-4">
                 <img class="iconbox" src="includes/images/logo.png" class="img-fluid">
-                <form action="includes/action.php" method="post" class="row justify-content-center">
+                <form action="includes/action.php" method="post" class="row justify-content-center mt-0\">
                   <div class="col-md-10 my-2">
                   <?php if (isset($_SESSION['login-failed'])) : ?>
                   <h5 id="alert" class="alert alert-danger fw-bold"><?php echo $_SESSION['login-failed']; ?></h5>
